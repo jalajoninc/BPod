@@ -11,6 +11,8 @@
 #import "iSignin.h"
 #import "iRegister.h"
 #import "iForgot.h"
+#import "iCreatePwd.h"
+#import "iVerify.h"
 
 FOUNDATION_EXPORT double iLoginVersionNumber;
 FOUNDATION_EXPORT const unsigned char iLoginVersionString[];
@@ -20,6 +22,8 @@ FOUNDATION_EXPORT const unsigned char iLoginVersionString[];
 @property (nonatomic, strong) iSignin *signin;
 @property (nonatomic, strong) iRegister *reg;
 @property (nonatomic, strong) iForgot *forgot;
+@property (nonatomic, strong) iCreatePwd *createPwd;
+@property (nonatomic, strong) iVerify *verify;
 
 @end
 

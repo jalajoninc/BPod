@@ -4,9 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/iCreatePwd.h</key>
+		<data>
+		iBGEX6Pi8fQQsfrkROQkMMF632Y=
+		</data>
+		<key>Headers/iForgot.h</key>
+		<data>
+		5jnPLPO31kTIWAJaLBtdJrT4qaY=
+		</data>
 		<key>Headers/iLogin.h</key>
 		<data>
-		54RxgIbrXip96O4Ltin18MCokAw=
+		FH3SpuPfEd7fGkFGbpKfB60U4qI=
+		</data>
+		<key>Headers/iRegister.h</key>
+		<data>
+		8FYB4Uyi3YzMz421cL/nr4gkRQA=
+		</data>
+		<key>Headers/iSignin.h</key>
+		<data>
+		PxEOXBv7XBz6k0Qa1DMYZ6BiSDg=
+		</data>
+		<key>Headers/iVerify.h</key>
+		<data>
+		uw2MjiwhHL2ps6miWa0e2Soz4Dc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -19,11 +39,46 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/iCreatePwd.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jCVwxuLKCOR5sdl9EpDxy8McDFc2HGFufEkm1mqc4z0=
+			</data>
+		</dict>
+		<key>Headers/iForgot.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zXm3tUARpbJIiggunkN7uX+y8c2EdkEDEgtCtGT2InE=
+			</data>
+		</dict>
 		<key>Headers/iLogin.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nG5z+NL1FGICwyMlkGGPlcO6bxVPS684vPHbrOJWvnY=
+			/g40+M77vafC3ulryr6E88tRAdbtPS9zd4iKhd16Zkg=
+			</data>
+		</dict>
+		<key>Headers/iRegister.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G9t5xwQLGz+2q4E/jMz8iAvSi3Rjf+dxd4/GpH51D9M=
+			</data>
+		</dict>
+		<key>Headers/iSignin.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RiMsWjHO67bqXz2uddjTaEWE7Kra+asA5sKGqfRcZAw=
+			</data>
+		</dict>
+		<key>Headers/iVerify.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IhaO/vaa0fZrcLSFlsJvzYNY3Cvd1hll/Ue8Fe1zRrQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
