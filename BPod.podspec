@@ -24,11 +24,14 @@ Pod::Spec.new do |s|
     #s.source_files = '*'
     #s.resources = '*.framework'
     
-    s.public_header_files = "IHome.framework/Headers/*.h"
-    s.source_files = "IHome.framework/Headers/*.h"
-    s.vendored_frameworks = "IHome.framework"
+    #s.public_header_files = "IHome.framework/Headers/*.h"
+    #s.source_files = "IHome.framework/Headers/*.h"
+    #s.vendored_frameworks = "IHome.framework"
+    
+    s.public_header_files = "iLogin.framework/Headers/*.h"
+    s.source_files = "iLogin.framework/Headers/*.h"
+    s.vendored_frameworks = "iLogin.framework"
 
-    #s.frameworks = 'UIKit', 'CoreText', 'IHome', 'iLogin'
     s.frameworks = 'UIKit', 'CoreText'
     s.module_name = 'BPod'
 end
