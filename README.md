@@ -132,7 +132,6 @@ Required software and how to install them.
         return( false );
     }];
 ```
-```
 
 8. Monitor iLogin activities in swift
 ```sh
