@@ -106,12 +106,33 @@ Required software and how to install them.
     @property (nonatomic, strong) iLogin *myFrame;
 ```
 
-6. Use iLogin Framework
+6. Initialize iLogin Framework
 ```sh
     CGRect rect = CGRectMake( 0.0, 0.0,  159.0,  300.0 );
     self.myFrame = [[iLogin alloc] initWithFrame:rect];
     [self.view addSubview:self.myFrame];
 ```
+
+7. Monitor iLogin activities
+```sh
+    [self.login watchAction:1 login:^BOOL(NSString *usr, NSString *pwd) {
+        NSLog( @"forget : %@ %@", usr, pwd );
+        return( false );
+    } reg:^BOOL(NSString *name, NSString *phone) {
+        NSLog( @"forget : %@ %@", name, phone );
+        return( false );
+    } forget:^BOOL(NSString *phone) {
+        NSLog( @"forget : %@", phone );
+        return( false );
+    } createPwd:^BOOL(NSString *pwd) {
+        NSLog( @"forget : %@", pwd );
+        return( false );
+    } verify:^BOOL(NSString *code) {
+        NSLog( @"forget : %@", code );
+        return( false );
+    }];
+```
+
 
 
 <!-- USAGE EXAMPLES -->
