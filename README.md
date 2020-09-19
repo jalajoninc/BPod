@@ -85,7 +85,7 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [XCode Vresion 11.7](cnn.com) 
+* [XCode Vresion 11.7](#about-the-project) 
 * []()
 * []()
 
