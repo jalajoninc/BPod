@@ -105,7 +105,19 @@ pod install
 
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo_name.git
+target 'TestPods' do
+  platform :ios, '13.0'
+  use_frameworks!
+    pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
+    post_install do |installer|
+        installer.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['ARCHS'] = '$ARCHS_STANDARD_64_BIT'
+            end
+        end
+    end
+end
+
 ```
 2. Install NPM packages
 ```sh
