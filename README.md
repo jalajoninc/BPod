@@ -112,12 +112,12 @@ pod install
 pod install 
 ```
 
-3. open the Xcode workspace
+3. Open the Xcode workspace
 ```sh
 open [app name].xcworkspace 
 ```
 
-4. import the library (header's file)
+4. Import the library (header's file)
 ```sh
 @import iLogin;
 ```
@@ -127,7 +127,7 @@ open [app name].xcworkspace
 @property (nonatomic, strong) iLogin *myFrame;
 ```
 
-6. open the Xcode workspace
+6. Use iLogin Framework
 ```sh
     CGRect rect = CGRectMake( 0.0, 0.0,  159.0,  300.0 );
     self.myFrame = [[iLogin alloc] initWithFrame:rect];
