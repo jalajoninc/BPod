@@ -30,7 +30,7 @@
     <img src="/images/login.png" alt="My cool logo" width="180" height="100"/>
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">iLogon</h3>
 
   <p align="center">
      LoginKit is a quick and easy way to add a Login/Signup UX to your iOS app.
