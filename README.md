@@ -135,10 +135,13 @@ Required software and how to install them.
 
 8. Monitor iLogin activities in swift
 ```sh
-        login.watchAction(1, login: { (Int) in
-            
+        login.watchAction(1, login: { (usr : String?, pwd : String) in
+          
+          return( false );
         }, reg: { (Int) in
-            
+        
+        }, forget: { (Int) in
+ 
         }, forget: { (Int) in
             
         });
