@@ -76,8 +76,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-[![../master/images/login.png][../master/images/login.png]](login.png)
 <img src="/images/login.png" alt="My cool logo" width="200" height="100"/>
 
 Here's a blank template to get started:
