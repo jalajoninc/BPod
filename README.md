@@ -78,6 +78,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 [![../master/images/login.png][../master/images/login.png]](login.png)
+<img src="/images/login.png" alt="My cool logo"/>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
