@@ -34,15 +34,6 @@
 
   <p align="center">
      iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </p>
 
@@ -68,11 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/images/login.png" alt="My cool logo" width="180" height="100"/>
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
+iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
 
 
 ### Built With
