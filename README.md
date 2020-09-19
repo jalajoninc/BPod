@@ -76,7 +76,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/images/login.png" alt="My cool logo" width="200" height="100"/>
+<img src="/images/login.png" alt="My cool logo" width="180" height="100"/>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
