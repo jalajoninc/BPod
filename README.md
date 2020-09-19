@@ -85,7 +85,7 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [XCode](XCode) 
+* [XCode Vresion 11.7](cnn.com) 
 * []()
 * []()
 
@@ -156,7 +156,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Native Jong - [@twitter_handle](https://twitter.com/twitter_handle) - native.jong@gmail.com
+Native Jong - [@email](native.jong@gmail.com)
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -165,9 +166,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Jva Blaine]()
 
 
 
