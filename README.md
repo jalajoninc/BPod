@@ -103,27 +103,36 @@ pod install
 
 ### Installation
 
-1. Clone the repo
+1. Add to Podfile
 ```sh
-target 'TestPods' do
-  platform :ios, '13.0'
-  use_frameworks!
     pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
-    post_install do |installer|
-        installer.pods_project.targets.each do |target|
-            target.build_configurations.each do |config|
-                config.build_settings['ARCHS'] = '$ARCHS_STANDARD_64_BIT'
-            end
-        end
-    end
-end
-
 ```
-2. Install NPM packages
+2. Install this pod
 ```sh
-npm install
+pod install 
 ```
 
+3. open the Xcode workspace
+```sh
+open App.xcworkspace 
+```
+
+4. import the library in your header's file
+```sh
+@import iLogin;
+```
+
+5. Declare the library in your header's file
+```sh
+@property (nonatomic, strong) iLogin *myFrame;
+```
+
+6. open the Xcode workspace
+```sh
+    CGRect rect = CGRectMake( 0.0, 0.0,  159.0,  300.0 );
+    self.myFrame = [[iLogin alloc] initWithFrame:rect];
+    [self.view addSubview:self.myFrame];
+```
 
 
 <!-- USAGE EXAMPLES -->
@@ -164,11 +173,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Native Jong - [@twitter_handle](https://twitter.com/twitter_handle) - native.jong@gmail.com
-Native Jong - [@email](native.jong@gmail.com)
-
 Email: [native.jong@gmail.com]()
+Twitter: [@twitter_handle](https://twitter.com/twitter_handle)
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -176,12 +182,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-
 * [Java Blaine]()
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
