@@ -95,10 +95,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* pod
+Required software and how to install them.
+* install cocoapods
 ```sh
-pod install 
+    sudo gem install cocoapods 
 ```
 
 ### Installation
