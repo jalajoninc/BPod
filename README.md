@@ -77,7 +77,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-[![images/login.png][images/login.png]](images/login.png)
+[![login.png][login.png]](login.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
