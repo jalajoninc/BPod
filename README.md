@@ -86,9 +86,6 @@ Here's a blank template to get started:
 ### Built With
 
 * [XCode Vresion 11.7](#about-the-project) 
-* []()
-* []()
-
 
 
 <!-- GETTING STARTED -->
@@ -99,9 +96,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pod
 ```sh
-npm install npm@latest -g
+pod install 
 ```
 
 ### Installation
@@ -159,6 +156,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Native Jong - [@twitter_handle](https://twitter.com/twitter_handle) - native.jong@gmail.com
 Native Jong - [@email](native.jong@gmail.com)
 
+Email: [native.jong@gmail.com]()
+
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 
@@ -166,7 +165,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Jva Blaine]()
+* [Java Blaine]()
 
 
 
