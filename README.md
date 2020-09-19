@@ -77,6 +77,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](images/login.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -85,7 +86,7 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [XCode Vresion 11.7](#about-the-project) 
+* [XCode Version 11.7](#about-the-project) 
 
 
 <!-- GETTING STARTED -->
