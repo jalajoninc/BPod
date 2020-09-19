@@ -114,15 +114,15 @@ pod install
 
 3. open the Xcode workspace
 ```sh
-open App.xcworkspace 
+open [app name].xcworkspace 
 ```
 
-4. import the library in your header's file
+4. import the library (header's file)
 ```sh
 @import iLogin;
 ```
 
-5. Declare the library in your header's file
+5. Declare the library (header's file)
 ```sh
 @property (nonatomic, strong) iLogin *myFrame;
 ```
