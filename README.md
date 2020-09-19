@@ -173,8 +173,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Email: [native.jong@gmail.com]()
-Twitter: [@twitter_handle](https://twitter.com/twitter_handle)
+* Email: [native.jong@gmail.com]()
+* Twitter: [@twitter_handle](https://twitter.com/twitter_handle)
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
