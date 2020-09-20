@@ -1,5 +1,5 @@
-framework module IHome {
-  umbrella header "IHome.h"
+framework module iHome {
+  umbrella header "iHome.h"
 
   export *
   module * { export * }
