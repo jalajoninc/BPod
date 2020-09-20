@@ -14,6 +14,7 @@
 		9EB3232F2516F65100630C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB3232E2516F65100630C9B /* Assets.xcassets */; };
 		9EB323322516F65100630C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB323302516F65100630C9B /* LaunchScreen.storyboard */; };
 		9EB3233F2516F9B600630C9B /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3233E2516F9B600630C9B /* ObjCViewController.m */; };
+		9EB323412516FCFE00630C9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9EB323402516FCFD00630C9B /* Podfile */; };
 		E5AEB8CF1C3358DF165D66BC /* Pods_TestBench.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A550ACE419F7429F83796C /* Pods_TestBench.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		9EB323392516F92100630C9B /* TestBench-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestBench-Bridging-Header.h"; sourceTree = "<group>"; };
 		9EB3233D2516F9B600630C9B /* ObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
 		9EB3233E2516F9B600630C9B /* ObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
+		9EB323402516FCFD00630C9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		B8A550ACE419F7429F83796C /* Pods_TestBench.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBench.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 		9EB323192516F65100630C9B = {
 			isa = PBXGroup;
 			children = (
+				9EB323402516FCFD00630C9B /* Podfile */,
 				9EB323242516F65100630C9B /* TestBench */,
 				9EB323232516F65100630C9B /* Products */,
 				F345BD9DAE2133D90AE2CAD0 /* Pods */,
@@ -161,6 +164,7 @@
 			files = (
 				9EB323322516F65100630C9B /* LaunchScreen.storyboard in Resources */,
 				9EB3232F2516F65100630C9B /* Assets.xcassets in Resources */,
+				9EB323412516FCFE00630C9B /* Podfile in Resources */,
 				9EB3232D2516F65100630C9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
