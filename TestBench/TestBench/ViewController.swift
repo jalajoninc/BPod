@@ -9,6 +9,7 @@
 import UIKit
 import iLogin
 import IHome
+import iRating
 
 class ViewController: UIViewController {
 
