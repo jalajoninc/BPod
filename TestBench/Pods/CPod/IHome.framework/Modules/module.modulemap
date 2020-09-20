@@ -1,6 +1,0 @@
-framework module IHome {
-  umbrella header "IHome.h"
-
-  export *
-  module * { export * }
-}

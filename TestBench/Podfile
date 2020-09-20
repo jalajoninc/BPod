@@ -7,6 +7,7 @@ target 'TestBench' do
   
     pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
     pod 'CPod', :git => 'https://github.com/jalajoninc/BPod.git'
+    pod 'iRegister', :git => 'https://github.com/jalajoninc/BPod.git'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
