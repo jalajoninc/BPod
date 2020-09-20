@@ -1,0 +1,6 @@
+framework module iRating {
+  umbrella header "iRating.h"
+
+  export *
+  module * { export * }
+}

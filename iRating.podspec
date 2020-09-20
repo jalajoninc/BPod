@@ -12,10 +12,10 @@
 #https://cocoapods.org/pods/Native-Jong-BPod
 
 Pod::Spec.new do |s|
-    s.name             = "BPod"
+    s.name             = "iRating"
     s.version          = "1.1.1"
-    s.summary          = "The open source fonts for Artsy apps + UIFont categories."
-    s.homepage         = "https://github.com/artsy/Artsy-OSSUIFonts"
+    s.summary          = "An easy way to make a request rating."
+    s.homepage         = "https://github.com/jalajoninc"
     s.license          = 'Code is MIT, then custom font licenses.'
     s.author           = { "Orta" => "native.jong@gmail.com" }
     s.source           = { :git => "https://github.com/jalajoninc/BPod.git", :tag => s.version }
@@ -23,20 +23,11 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, '7.0'
     s.requires_arc = true
-
-    #s.source_files = 'Pod/Classes'
-    #s.resources = 'Pod/Assets/*'
-    #s.source_files = '*'
-    #s.resources = '*.framework'
     
-    #s.public_header_files = "IHome.framework/Headers/*.h"
-    #s.source_files = "IHome.framework/Headers/*.h"
-    #s.vendored_frameworks = "IHome.framework"
-    
-    s.public_header_files = "iLogin.framework/Headers/*.h"
-    s.source_files = "iLogin.framework/Headers/*.h"
-    s.vendored_frameworks = "iLogin.framework"
+    s.public_header_files = "iRating.framework/Headers/*.h"
+    s.source_files = "iRating.framework/Headers/*.h"
+    s.vendored_frameworks = "iRating.framework"
 
     s.frameworks = 'UIKit', 'CoreText'
-    s.module_name = 'BPod'
+    s.module_name = 'CPod'
 end
