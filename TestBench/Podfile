@@ -5,8 +5,8 @@ target 'TestBench' do
   platform :ios, '13.0'
   use_frameworks!
   
-    pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
-    pod 'CPod', :git => 'https://github.com/jalajoninc/BPod.git'
+    pod 'iLogin', :git => 'https://github.com/jalajoninc/BPod.git'
+    pod 'iHome', :git => 'https://github.com/jalajoninc/BPod.git'
     pod 'iRating', :git => 'https://github.com/jalajoninc/BPod.git'
 
     post_install do |installer|

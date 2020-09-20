@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         rating = iRating(frame: CGRect.zero)
         sView?.addSubview(rating!)
         
+        home = IHome(frame: CGRect.zero)
+        sView?.addSubview(home!)
+
         self.watchAction()
     }
 
@@ -62,9 +65,9 @@ class ViewController: UIViewController {
         
         login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
         
-//        home?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.4)
-//        rating?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.1)
         rating?.frame = CGRect(x: w * 0.2, y: h * 1.0, width: w * 0.6, height: h * 0.05)
+        
+        home?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
     }
 
 }
