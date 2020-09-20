@@ -15,6 +15,7 @@ class ViewController: UIViewController {
 
     var login : iLogin?
     var home : IHome?
+    var rating : iRating?
 
     var sView : UIScrollView?
     
@@ -26,10 +27,11 @@ class ViewController: UIViewController {
 
         login = iLogin(frame: CGRect.zero)
         sView?.addSubview(login!)
-        self.watchAction()
 
-        home = IHome(frame: CGRect.zero)
-        sView?.addSubview(home!)
+        rating = iRating(frame: CGRect.zero)
+        sView?.addSubview(rating!)
+        
+        self.watchAction()
     }
 
     func watchAction() {
@@ -44,6 +46,12 @@ class ViewController: UIViewController {
         }, verify: { (code : String?) -> Bool in
             return false
         })
+        
+        rating?.watchAction(2.0, rating: { (v : CGFloat) -> Bool in
+            print("val : ", v)
+            return false
+        })
+        
     }
     
     override func viewWillLayoutSubviews() {
@@ -53,7 +61,9 @@ class ViewController: UIViewController {
         sView?.contentSize = CGSize(width: w * 1.0, height: h * 4.0)
         
         login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
-        home?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.4)
+        
+//        home?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.4)
+        rating?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.1)
     }
 
 }
