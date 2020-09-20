@@ -15,15 +15,20 @@ class ViewController: UIViewController {
     var login : iLogin?
     var home : IHome?
 
+    var sView : UIScrollView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sView = UIScrollView(frame: CGRect.zero)
+        self.view.addSubview(sView!)
+
         login = iLogin(frame: CGRect.zero)
-        self.view.addSubview(login!)
+        sView?.addSubview(login!)
         self.watchAction()
 
         home = IHome(frame: CGRect.zero)
-        self.view.addSubview(home!)
-
+        sView?.addSubview(home!)
     }
 
     func watchAction() {
@@ -43,9 +48,11 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
+        sView?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
+        sView?.contentSize = CGSize(width: w * 1.0, height: h * 4.0)
         
-//        login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
-        home?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
+        login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
+        home?.frame = CGRect(x: w * 0.1, y: h * 1.0, width: w * 0.8, height: h * 0.4)
     }
 
 }
