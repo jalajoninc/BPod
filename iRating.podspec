@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "iRating.framework"
 
     s.frameworks = 'UIKit', 'CoreText'
-    s.module_name = 'CPod'
+    s.module_name = 'iRating'
 end
