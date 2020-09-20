@@ -6,6 +6,7 @@ target 'TestBench' do
   use_frameworks!
   
     pod 'BPod', :git => 'https://github.com/jalajoninc/BPod.git'
+    pod 'CPod', :git => 'https://github.com/jalajoninc/BPod.git'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|

@@ -1,0 +1,27 @@
+{
+  "name": "CPod",
+  "version": "1.1.1",
+  "summary": "The open source fonts for Artsy apps + UIFont categories.",
+  "homepage": "https://github.com/artsy/Artsy-OSSUIFonts",
+  "license": "Code is MIT, then custom font licenses.",
+  "authors": {
+    "Orta": "orta.therox@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/artsy/Artsy-OSSUIFonts.git",
+    "tag": "1.1.1"
+  },
+  "social_media_url": "https://twitter.com/artsy",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "iHome.framework/Headers/*.h",
+  "source_files": "iHome.framework/Headers/*.h",
+  "vendored_frameworks": "iHome.framework",
+  "frameworks": [
+    "UIKit",
+    "CoreText"
+  ],
+  "module_name": "CPod"
+}

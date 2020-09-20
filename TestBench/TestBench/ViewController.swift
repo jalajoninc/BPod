@@ -8,17 +8,22 @@
 
 import UIKit
 import iLogin
+import IHome
 
 class ViewController: UIViewController {
 
     var login : iLogin?
-    
+    var home : IHome?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         login = iLogin(frame: CGRect.zero)
         self.view.addSubview(login!)
-        
         self.watchAction()
+
+        home = IHome(frame: CGRect.zero)
+        self.view.addSubview(home!)
+
     }
 
     func watchAction() {
@@ -39,7 +44,8 @@ class ViewController: UIViewController {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
         
-        login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
+//        login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
+        home?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
     }
 
 }
