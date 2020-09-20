@@ -1,0 +1,6 @@
+framework module iHome {
+  umbrella header "iHome.h"
+
+  export *
+  module * { export * }
+}
