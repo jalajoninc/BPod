@@ -8,13 +8,13 @@
 
 import UIKit
 import iLogin
-import IHome
+import iHome
 import iRating
 
 class ViewController: UIViewController {
 
     var login : iLogin?
-    var home : IHome?
+    var home : iHome?
     var rating : iRating?
 
     var sView : UIScrollView?
@@ -31,9 +31,11 @@ class ViewController: UIViewController {
         rating = iRating(frame: CGRect.zero)
         sView?.addSubview(rating!)
         
-        home = IHome(frame: CGRect.zero)
+        home = iHome(frame: CGRect.zero)
         sView?.addSubview(home!)
 
+        home?.testing()
+        
         self.watchAction()
     }
 
@@ -63,11 +65,12 @@ class ViewController: UIViewController {
         sView?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
         sView?.contentSize = CGSize(width: w * 1.0, height: h * 4.0)
         
-        login?.frame = CGRect(x: w * 0.1, y: h * 0.1, width: w * 0.8, height: h * 0.4)
+        home?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
+
+        login?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
         
-        rating?.frame = CGRect(x: w * 0.2, y: h * 1.0, width: w * 0.6, height: h * 0.05)
+        rating?.frame = CGRect(x: w * 0.2, y: h * 1.1, width: w * 0.6, height: h * 0.05)
         
-        home?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
     }
 
 }

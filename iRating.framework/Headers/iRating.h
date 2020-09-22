@@ -14,6 +14,8 @@
 FOUNDATION_EXPORT double iRatingVersionNumber;
 FOUNDATION_EXPORT const unsigned char iRatingVersionString[];
 
+
+IB_DESIGNABLE
 @interface iRating : UIView
 
 - (id)initWithFrame:(CGRect)frame bg:(UIColor*)b fg:(UIColor*)f;
@@ -26,8 +28,5 @@ FOUNDATION_EXPORT const unsigned char iRatingVersionString[];
 - (void)watchAction:(CGFloat)n rating:(BOOL(^)(CGFloat val))rt;
 
 @property (copy, nonatomic) BOOL (^ratingCB)(CGFloat val );
-
-
-
 @end
 
