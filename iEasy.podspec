@@ -12,7 +12,7 @@
 #https://cocoapods.org/pods/Native-Jong-BPod
 
 Pod::Spec.new do |s|
-    s.name             = "iLogin"
+    s.name             = "iEasy"
     s.version          = "1.1.1"
     s.summary          = "Native Jon"
     s.homepage         = "https://github.com/artsy/Artsy-OSSUIFonts"
@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '7.0'
     s.requires_arc = true
     
-    s.public_header_files = "iLogin.framework/Headers/*.h"
-    s.source_files = "iLogin.framework/Headers/*.h"
-    s.vendored_frameworks = "iLogin.framework"
+    s.public_header_files = "iEasy.framework/Headers/*.h"
+    s.source_files = "iEasy.framework/Headers/*.h"
+    s.vendored_frameworks = "iEasy.framework"
 
     s.frameworks = 'UIKit', 'CoreText'
-    s.module_name = 'iLogin'
+    s.module_name = 'iEasy'
 end

@@ -14,10 +14,10 @@
 Pod::Spec.new do |s|
     s.name             = "iRating"
     s.version          = "1.1.1"
-    s.summary          = "An easy way to make a request rating."
+    s.summary          = "Native Jon"
     s.homepage         = "https://github.com/jalajoninc"
     s.license          = 'Code is MIT, then custom font licenses.'
-    s.author           = { "Orta" => "native.jong@gmail.com" }
+    s.author           = { "Native Jon" => "native.jong@gmail.com" }
     s.source           = { :git => "https://github.com/jalajoninc/BPod.git", :tag => s.version }
     s.social_media_url = 'https://twitter.com/artsy'
 

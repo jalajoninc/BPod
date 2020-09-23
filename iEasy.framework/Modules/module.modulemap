@@ -1,0 +1,6 @@
+framework module iEasy {
+  umbrella header "iEasy.h"
+
+  export *
+  module * { export * }
+}
