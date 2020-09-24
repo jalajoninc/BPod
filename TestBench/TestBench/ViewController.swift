@@ -10,12 +10,14 @@ import UIKit
 import iLogin
 import iHome
 import iRating
+import iEasy
 
 class ViewController: UIViewController {
 
     var login : iLogin?
     var home : iHome?
     var rating : iRating?
+    var easy : iEasy?
 
     var sView : UIScrollView?
     
@@ -33,10 +35,18 @@ class ViewController: UIViewController {
         
         home = iHome(frame: CGRect.zero)
         sView?.addSubview(home!)
+        
+        easy = iEasy(frame: CGRect.zero)
+        sView?.addSubview(easy!)
 
         home?.testing()
         
         self.watchAction()
+        
+        
+        let m = UIImage(named: "key")
+        easy?.addTextImage("Name", x: 0.1, y: 0.1, w: 0.8, h: 0.1, photo: m )
+        easy?.refresh()
     }
 
     func watchAction() {
@@ -62,9 +72,12 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
-//        sView?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
-//        sView?.contentSize = CGSize(width: w * 1.0, height: h * 4.0)
         
+        sView?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
+        sView?.contentSize = CGSize(width: w * 1.0, height: h * 4.0)
+        
+        easy?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
+
 //        home?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
 
 //        login?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
