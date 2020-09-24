@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
         
         let m = UIImage(named: "key")
-        easy?.addTextImage("Name", x: 0.1, y: 0.1, w: 0.8, h: 0.1, photo: m )
+        easy?.addTextImage("Name", x: 0.1, y: 0.1, w: 0.8, h: 0.08, photo: m )
         easy?.refresh()
     }
 
