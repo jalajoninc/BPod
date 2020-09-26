@@ -39,15 +39,17 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 
 - (NSString*) getText:(NSString*)n;
 
-- (void) addTextImage:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
+- (void) addText:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
 
 - (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
-
-- (void) addTextField:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 
 - (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSString*(^)(NSString *nm, NSString *s))tx;
 @property (copy, nonatomic) void (^actionCB)(NSString *nm);
 @property (copy, nonatomic) NSString* (^textCB)(NSString *nm, NSString *s);
+
+- (void) addBGColor:(NSString*)n color:(UIColor*)c;
+- (void) addFGColor:(NSString*)n color:(UIColor*)c;
+- (void) addCornerRadius:(NSString*)n pt:(CGFloat)c;
 
 @end
