@@ -45,10 +45,10 @@ class ViewController: UIViewController {
         
         
         let m = UIImage(named: "key")
-        easy?.addTextImage("Full Name", x: 0.1, y: 0.1, w: 0.8, h: 0.08, photo: m )
-        easy?.addTextImage("Password", x: 0.1, y: 0.2, w: 0.8, h: 0.08, photo: m )
+        easy?.addText("Full Name", x: 0.1, y: 0.1, w: 0.8, h: 0.08, photo: UIImage(named: "person") )
+        easy?.addText("Password", x: 0.1, y: 0.2, w: 0.8, h: 0.08, photo:  UIImage(named: "key" ) )
         
-        easy?.addTextField( "Occupation", x: 0.1, y: 0.3, w: 0.8, h: 0.08)
+        easy?.addText( "Occupation", x: 0.1, y: 0.3, w: 0.8, h: 0.08, photo: nil )
         easy?.refresh()
     }
 
