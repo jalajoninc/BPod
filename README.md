@@ -67,19 +67,19 @@ iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
   </tr>
  </table>
 
-<div style="border: 1px solid white">
-    <table border="0">
-        <tr>
-            <td>one</td>
-            <td>two</td>
-        </tr>
-        <tr>
-            <td>one</td>
-            <td>two</td>
-        </tr>
-    </table>
-</div>
-
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td colspan="3" height="120px">....</td>
+    </tr>
+    <tr>
+        <td class="menu" valign="top">...</td>
+        <td class="content" valign="top">...</td>
+        <td class="aSide" valign="top">...</td>
+    </tr>
+    <tr>
+        <td colspan="3">...</td>
+    </tr>
+</table>
 ### Built With
 
 * [XCode Version 11.7](#about-the-project) 
