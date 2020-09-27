@@ -69,9 +69,12 @@ class ViewController: UIViewController {
         
         easy?.watchAction(1, action: { ( btn : String?) in
 
-        }, text: { (usr : String?, pwd : String?) -> String? in
-            
-            return("Error")
+        }, text: { (name : String?, data : String?) -> String? in
+            if ( data == "1234" ){
+                return("Error")
+            } else {
+                return("")
+            }
         })
         
     }

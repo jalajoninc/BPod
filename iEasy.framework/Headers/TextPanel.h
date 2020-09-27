@@ -23,8 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (id)initWithFrame:(CGRect)frame name:(NSString*)n photo:(UIImage*)p;
 
 
-- (void)watchAction:(NSInteger)n text:(NSString*(^)(NSString *nm, NSString *s))tx;
-@property (copy, nonatomic) NSString* (^textCB)(NSString *nm, NSString *s);
+- (void)watchAction:(NSInteger)n text:(NSMutableArray*(^)(NSString *nm, NSString *s))tx;
+@property (copy, nonatomic) NSMutableArray* (^textCB)(NSString *nm, NSString *s);
 
 @end
 
