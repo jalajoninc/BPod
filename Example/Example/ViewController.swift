@@ -41,7 +41,6 @@ class ViewController: UIViewController {
         
         self.watchAction()
         
-        let m = UIImage(named: "key")
         easy?.addText("Full Name", x: 0.1, y: 0.1, w: 0.8, h: 0.08, photo: UIImage(named: "person") )
         easy?.addText("Password", x: 0.1, y: 0.2, w: 0.8, h: 0.08, photo:  UIImage(named: "key" ) )
         
@@ -66,6 +65,13 @@ class ViewController: UIViewController {
         rating?.watchAction(2.0, rating: { (v : CGFloat) -> Bool in
             print("val : ", v)
             return false
+        })
+        
+        easy?.watchAction(1, action: { ( btn : String?) in
+
+        }, text: { (usr : String?, pwd : String?) -> String? in
+            
+            return("Error")
         })
         
     }
