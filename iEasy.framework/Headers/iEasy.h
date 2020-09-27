@@ -41,7 +41,10 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 
 - (void) addText:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
 
-- (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
+
+- (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
+
+//- (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 // Expected a type
 

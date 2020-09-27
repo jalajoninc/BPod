@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         
         self.watchAction()
         
+        easy?.addImage(@"Japan", photo: UIImage(named: "person"), x: [0.0, 0.0, 1.0, 1.0] )
         easy?.addText("Full Name", x: 0.1, y: 0.1, w: 0.8, h: 0.08, photo: UIImage(named: "person") )
         easy?.addText("Password", x: 0.1, y: 0.2, w: 0.8, h: 0.08, photo:  UIImage(named: "key" ) )
         
