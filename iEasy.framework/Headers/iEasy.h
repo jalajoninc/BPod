@@ -43,8 +43,12 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 
 - (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
+// Expected a type
 
 - (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSObject*(^)(NSString *nm, NSString *s))tx;
+
+
+
 @property (copy, nonatomic) void (^actionCB)(NSString *nm);
 @property (copy, nonatomic) NSObject* (^textCB)(NSString *nm, NSString *s);
 
