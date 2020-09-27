@@ -67,31 +67,20 @@ iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
   </tr>
  </table>
 
-<div role="table"
-     aria-label="Students"
-     aria-describedby="students_table_desc">
-  <div id="students_table_desc">
-    Students currently enrolled in WAI-ARIA 101 for the coming semester
-  </div>
-  <div role="rowgroup">
-    <div role="row">
-      <span role="columnheader" width='200px'>
-        Login <br> hjhjhjh <br> john
-      </span>
-      <span role="columnheader">
-        <img src="/images/login.png" width=220 height=120 />
-      </span>
-      <span role="columnheader">
-        Company
-      </span>
-      <span role="columnheader">
-        Address
-      </span>
+<div class="thumbnail-gallery">
+  <div>
+    <div class="thumbnail">
+      <img src="/images/login.png" />
+      <p>Some text</p>
     </div>
-  </div>
- 
- 
-
+    <div class="thumbnail">
+      <img src="" />
+      <p>Some text</p>
+    </div>
+    <div class="thumbnail">
+      <img src="" />
+      <p>Some text</p>
+    </div>
   </div>
 </div>
 
