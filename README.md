@@ -67,19 +67,88 @@ iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
   </tr>
  </table>
 
-<table cellpadding="0" cellspacing="0" border="0">
-    <tr>
-        <td colspan="3" height="120px">....</td>
-    </tr>
-    <tr>
-        <td class="menu" valign="top">...</td>
-        <td class="content" valign="top">...</td>
-        <td class="aSide" valign="top">...</td>
-    </tr>
-    <tr>
-        <td colspan="3">...</td>
-    </tr>
-</table>
+<div role="table"
+     aria-label="Students"
+     aria-describedby="students_table_desc">
+  <div id="students_table_desc">
+    Students currently enrolled in WAI-ARIA 101 for the coming semester
+  </div>
+  <div role="rowgroup">
+    <div role="row">
+      <span role="columnheader">
+        First Name
+      </span>
+      <span role="columnheader">
+        Last Name
+      </span>
+      <span role="columnheader">
+        Company
+      </span>
+      <span role="columnheader">
+        Address
+      </span>
+    </div>
+  </div>
+  <div role="rowgroup">
+    <div role="row">
+      <span role="cell">
+        Fred
+      </span>
+      <span role="cell">
+        Jackson
+      </span>
+      <span role="cell">
+        Acme, Inc.
+      </span>
+      <span role="cell">
+        123 Broad St.
+      </span>
+    </div>
+    <div role="row">
+      <span role="cell">
+        Sara
+      </span>
+      <span role="cell">
+        James
+      </span>
+      <span role="cell">
+        Acme, Inc.
+      </span>
+      <span role="cell">
+        123 Broad St.
+      </span>
+    </div>
+    <div role="row">
+      <span role="cell">
+        Ralph
+      </span>
+      <span role="cell">
+        Jefferson
+      </span>
+      <span role="cell">
+        XYZ, Inc.
+      </span>
+      <span role="cell">
+        456 Main St.
+      </span>
+    </div>
+    <div role="row">
+      <span role="cell">
+        Nancy
+      </span>
+      <span role="cell">
+        Jensen
+      </span>
+      <span role="cell">
+        XYZ, Inc.
+      </span>
+      <span role="cell">
+        456 Main St.
+      </span>
+    </div>
+  </div>
+</div>
+
 ### Built With
 
 * [XCode Version 11.7](#about-the-project) 
