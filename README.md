@@ -89,63 +89,9 @@ iLogin is a quick and easy way to add a Login/Signup UX to your iOS app.
       </span>
     </div>
   </div>
-  <div role="rowgroup">
-    <div role="row">
-      <span role="cell">
-        Fred
-      </span>
-      <span role="cell">
-        Jackson
-      </span>
-      <span role="cell">
-        Acme, Inc.
-      </span>
-      <span role="cell">
-        123 Broad St.
-      </span>
-    </div>
-    <div role="row">
-      <span role="cell">
-        Sara
-      </span>
-      <span role="cell">
-        James
-      </span>
-      <span role="cell">
-        Acme, Inc.
-      </span>
-      <span role="cell">
-        123 Broad St.
-      </span>
-    </div>
-    <div role="row">
-      <span role="cell">
-        Ralph
-      </span>
-      <span role="cell">
-        Jefferson
-      </span>
-      <span role="cell">
-        XYZ, Inc.
-      </span>
-      <span role="cell">
-        456 Main St.
-      </span>
-    </div>
-    <div role="row">
-      <span role="cell">
-        Nancy
-      </span>
-      <span role="cell">
-        Jensen
-      </span>
-      <span role="cell">
-        XYZ, Inc.
-      </span>
-      <span role="cell">
-        456 Main St.
-      </span>
-    </div>
+ 
+ 
+
   </div>
 </div>
 
