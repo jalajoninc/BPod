@@ -44,9 +44,9 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 - (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 
-- (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSMutableArray*(^)(NSString *nm, NSString *s))tx;
+- (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSObject*(^)(NSString *nm, NSString *s))tx;
 @property (copy, nonatomic) void (^actionCB)(NSString *nm);
-@property (copy, nonatomic) NSMutableArray* (^textCB)(NSString *nm, NSString *s);
+@property (copy, nonatomic) NSObject* (^textCB)(NSString *nm, NSString *s);
 
 - (void) addBGColor:(NSString*)n color:(UIColor*)c;
 - (void) addFGColor:(NSString*)n color:(UIColor*)c;

@@ -67,15 +67,20 @@ class ViewController: UIViewController {
             return false
         })
         
-        easy?.watchAction(1, action: { ( btn : String?) in
+        
+        easy?.watchAction(1, action: { ( nm : String?) in
 
-        }, text: { (name : String?, data : String?) -> String? in
+        }, text: { (nm : String?, data : String?) -> NSMutableArray? in
             if ( data == "1234" ){
-                return("Error")
+                return( ["No", UIColor.blue] )
+            } else if ( data == "0000" ){
+                return(["Yes", UIColor.red] )
             } else {
-                return("")
+                return(["", UIColor.red])
             }
+
         })
+        
         
     }
 
