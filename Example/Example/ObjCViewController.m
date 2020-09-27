@@ -1,8 +1,8 @@
 //
 //  ObjCViewController.m
-//  TestBench
+//  Example
 //
-//  Created by John Blaine on 9/20/20.
+//  Created by John Blaine on 9/27/20.
 //  Copyright © 2020 John Blaine. All rights reserved.
 //
 
@@ -21,8 +21,6 @@
     
     [self watchAction];
 }
-
-
 
 - (void)watchAction{
     [self.login watchAction:1 login:^BOOL(NSString *usr, NSString *pwd) {

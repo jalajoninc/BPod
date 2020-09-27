@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  TestBench
+//  Example
 //
-//  Created by John Blaine on 9/20/20.
+//  Created by John Blaine on 9/27/20.
 //  Copyright © 2020 John Blaine. All rights reserved.
 //
 
