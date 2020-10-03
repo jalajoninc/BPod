@@ -39,18 +39,19 @@ class ViewController: UIViewController {
 
         home?.testing()
         
-        self.watchAction()
-                
-//        easy?.addImage("Japan", photo: UIImage(named: "japan2"), x: 0.0, y: 0.0, w: 1.0, h: 1.0 )
-//        
-//        easy?.addText("Full Name", x: 0.1, y: 0.3, w: 0.8, h: 0.08, photo: UIImage(named: "person") )
-//        easy?.addText("Password", x: 0.1, y: 0.4, w: 0.8, h: 0.08, photo:  UIImage(named: "key" ) )
-//        
-//        easy?.refresh()
+        self.watchAction()                
+        
+        easy?.theme("")
+    }
+    
+    
+    func easyTheme() {
+        easy?.addImage("Japan", photo: UIImage(named: "japan2"), x: 0.0, y: 0.0, w: 1.0, h: 1.0 )
 
-//        easy?.testing()
-        
-        
+        easy?.addText("Full Name", x: 0.1, y: 0.3, w: 0.8, h: 0.08, photo: UIImage(named: "person") )
+        easy?.addText("Password", x: 0.1, y: 0.4, w: 0.8, h: 0.08, photo:  UIImage(named: "key" ) )
+
+        easy?.refresh()
     }
     
     func watchAction() {
