@@ -17,8 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) UIImageView *photo;
 
 
-//- (id)initWithFrame:(CGRect)frame name:(NSString*)n;
-//- (id)initWithFrame:(CGRect)frame name:(NSString*)n photo:(UIImage*)p;
 - (id)initWithFrame:(CGRect)frame name:(NSString*)n image:(NSString*)p;
 
 

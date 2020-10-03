@@ -23,17 +23,17 @@
 }
 
 - (void)watchAction{
-    [self.login watchAction:1 login:^BOOL(NSString *usr, NSString *pwd) {
-        return false;
-    } reg:^BOOL(NSString *name, NSString *phone) {
-        return false;
-    } forget:^BOOL(NSString *phone) {
-        return false;
-    } createPwd:^BOOL(NSString *pwd) {
-        return false;
-    } verify:^BOOL(NSString *code) {
-        return false;
-    }];
+//    [self.login watchAction:1 login:^BOOL(NSString *usr, NSString *pwd) {
+//        return false;
+//    } reg:^BOOL(NSString *name, NSString *phone) {
+//        return false;
+//    } forget:^BOOL(NSString *phone) {
+//        return false;
+//    } createPwd:^BOOL(NSString *pwd) {
+//        return false;
+//    } verify:^BOOL(NSString *code) {
+//        return false;
+//    }];
     
 }
 

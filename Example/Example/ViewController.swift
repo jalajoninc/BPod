@@ -55,17 +55,17 @@ class ViewController: UIViewController {
     }
     
     func watchAction() {
-        login?.watchAction(1, login: { ( usr : String?, pwd : String?) -> Bool in
-            return false
-        }, reg: { (name : String?, phone : String?) -> Bool in
-            return false
-        }, forget: { (phone : String?) -> Bool in
-            return false
-        }, createPwd: { (pwd : String?) -> Bool in
-            return false
-        }, verify: { (code : String?) -> Bool in
-            return false
-        })
+//        login?.watchAction(1, login: { ( usr : String?, pwd : String?) -> Bool in
+//            return false
+//        }, reg: { (name : String?, phone : String?) -> Bool in
+//            return false
+//        }, forget: { (phone : String?) -> Bool in
+//            return false
+//        }, createPwd: { (pwd : String?) -> Bool in
+//            return false
+//        }, verify: { (code : String?) -> Bool in
+//            return false
+//        })
         
         rating?.watchAction(2.0, rating: { (v : CGFloat) -> Bool in
             print("val : ", v)
@@ -99,7 +99,7 @@ class ViewController: UIViewController {
 
     //        home?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
 
-    //        login?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
+            login?.frame = CGRect(x: w * 0.1, y: h * 1.5, width: w * 0.8, height: h * 0.4)
     //
     //        rating?.frame = CGRect(x: w * 0.2, y: h * 1.1, width: w * 0.6, height: h * 0.05)
             

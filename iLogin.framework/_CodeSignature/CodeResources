@@ -8,6 +8,14 @@
 		<data>
 		mVEHOOSECOcYKeCADoP71l8baEI=
 		</data>
+		<key>Headers/CNotify.h</key>
+		<data>
+		hLNczQcyf2e9mNW9XVELWZL0+5Q=
+		</data>
+		<key>Headers/CText.h</key>
+		<data>
+		AXPANnK79Z/YHd0tGAZtP9aScqc=
+		</data>
 		<key>Headers/iCreatePwd.h</key>
 		<data>
 		iBGEX6Pi8fQQsfrkROQkMMF632Y=
@@ -48,6 +56,20 @@
 			<key>hash2</key>
 			<data>
 			a6moA9sZLCxfozHOkKtHczKF7ZnUtnQhe/fuV+s3oJY=
+			</data>
+		</dict>
+		<key>Headers/CNotify.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DqBK/riQzoHAGyvlNUTS1UojNUAyN+t+XoftmNw1/Lg=
+			</data>
+		</dict>
+		<key>Headers/CText.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S5dyiFshQIzUdaT88VFzw3imCY/uwOL2Rw11RXNSxXE=
 			</data>
 		</dict>
 		<key>Headers/iCreatePwd.h</key>
