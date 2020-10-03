@@ -28,6 +28,14 @@
 		<data>
 		BBwY78kofj1OWcc4v3IvXkJvGPg=
 		</data>
+		<key>thai.png</key>
+		<data>
+		jItM98jgr/LZqUpqQ267/NzO0PA=
+		</data>
+		<key>wai.png</key>
+		<data>
+		eBz8wPQDD5mP7HUF4FfPmj2Z9aA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -64,6 +72,20 @@
 			<key>hash2</key>
 			<data>
 			uYouxv42YQncWMTLORHBm1w5ZdGX7qqWCGdbmsu7PZM=
+			</data>
+		</dict>
+		<key>thai.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o7eiYZ7WTxsGx0KSRCQb3J9H0qfXy1Rgjlhf5PmuwOg=
+			</data>
+		</dict>
+		<key>wai.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tROIDkfG8/n6gSYcjBZPUuUbT0gHe1AYERQvMwFcSwY=
 			</data>
 		</dict>
 	</dict>
