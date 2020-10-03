@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		LEbZPyh41U6fKlWxNlN2PQbtkdk=
+		</data>
 		<key>Headers/CNotify.h</key>
 		<data>
 		/3t2+gYwCZiCsrU9P/1hsBTq3tU=
@@ -27,6 +31,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sy0uIrKDpnkFiuipq0tl+cJdTkfvfx+OzC0dZsEMojo=
+			</data>
+		</dict>
 		<key>Headers/CNotify.h</key>
 		<dict>
 			<key>hash2</key>
