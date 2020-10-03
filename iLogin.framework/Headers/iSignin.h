@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CText.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,13 +15,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, retain) UIButton *title;
 @property (nonatomic, retain) UIButton *login;
-@property (nonatomic, retain) UITextField *usr;
-@property (nonatomic, retain) UITextField *pwd;
+//@property (nonatomic, retain) UITextField *usr;
+//@property (nonatomic, retain) UITextField *pwd;
+
+@property (nonatomic, retain) CText *usr;
+@property (nonatomic, retain) CText *pwd;
+
 @property (nonatomic, retain) UIButton *reg;
 @property (nonatomic, retain) UIButton *fgt;
 
-- (void)watchAction:(NSInteger)n login:(void(^)(NSInteger))lx reg:(void(^)(NSInteger))rx forget:(void(^)(NSInteger))fx;
-@property (copy, nonatomic) void (^loginCB)(NSInteger i);
+- (void)watchAction:(NSInteger)n login:(void(^)(NSString *usr, NSString *pwd))lx reg:(void(^)(NSInteger))rx forget:(void(^)(NSInteger))fx;
+@property (copy, nonatomic) void (^loginCB)(NSString *usr, NSString *pwd);
 @property (copy, nonatomic) void (^registerCB)(NSInteger i);
 @property (copy, nonatomic) void (^forgetCB)(NSInteger i);
 
