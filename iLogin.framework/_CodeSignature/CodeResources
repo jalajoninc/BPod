@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		mVEHOOSECOcYKeCADoP71l8baEI=
+		</data>
 		<key>Headers/iCreatePwd.h</key>
 		<data>
 		iBGEX6Pi8fQQsfrkROQkMMF632Y=
@@ -14,7 +18,7 @@
 		</data>
 		<key>Headers/iLogin.h</key>
 		<data>
-		wFzM6SlCBpapIpnUcZ2X/y7EICk=
+		gKei2PYSt7yTXU4RDqb4qJ8GKCI=
 		</data>
 		<key>Headers/iRegister.h</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>Headers/iSignin.h</key>
 		<data>
-		v1z8QLWeAAZ3v7KD9ObKXd1BVvA=
+		/e02EBQGxa3dMKPkJ8Ilm0716do=
 		</data>
 		<key>Headers/iVerify.h</key>
 		<data>
@@ -39,6 +43,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a6moA9sZLCxfozHOkKtHczKF7ZnUtnQhe/fuV+s3oJY=
+			</data>
+		</dict>
 		<key>Headers/iCreatePwd.h</key>
 		<dict>
 			<key>hash2</key>
@@ -57,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0HSsJPamaTqdgK75TckNr0isdYRo6EE7r79rnrXGM0=
+			mSgqp5Xmvk2wot0RPzn1TUQcvtu2kPlAMHNEQmZdGnI=
 			</data>
 		</dict>
 		<key>Headers/iRegister.h</key>
@@ -71,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PY7gLRLwJvFHyi/6IkgI4Q3+txSwMVFhf1GB5XDDeMc=
+			QU5qAyECGhkNqNYXSfJPtLwWjWGIOcki6TxhVItw/aY=
 			</data>
 		</dict>
 		<key>Headers/iVerify.h</key>
