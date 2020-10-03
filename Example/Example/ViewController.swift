@@ -48,7 +48,9 @@ class ViewController: UIViewController {
 //        
 //        easy?.refresh()
 
-        easy?.testing()
+//        easy?.testing()
+        
+        
     }
     
     func watchAction() {

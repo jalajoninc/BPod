@@ -33,20 +33,17 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 @property UIColor *fgBtn;
 
 
+- (void) theme:(NSString*)s;
 
-- (void) testing;
 - (void) refresh;
 
 - (NSString*) getText:(NSString*)n;
 
 - (void) addText:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
 
-
 - (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 
-//- (void) addImage:(NSString*)n photo:(UIImage*)p x:(CGFloat[])xp;
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
-// Expected a type
 
 - (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSObject*(^)(NSString *nm, NSString *s))tx;
 
