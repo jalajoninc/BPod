@@ -7,19 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CText.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface iVerify : UIView
 @property (nonatomic, retain) UIButton *title;
-@property (nonatomic, retain) UITextField *usr;
-//@property (nonatomic, retain) UITextField *pwd;
-@property (nonatomic, retain) UIButton *reg;
+@property (nonatomic, retain) CText *usr;
+@property (nonatomic, retain) UIButton *resend;
+@property (nonatomic, retain) UIButton *submit;
+@property (nonatomic, retain) NSString *passcode;
 
-- (void)watchAction:(NSInteger)n login:(void(^)(NSInteger))lx reg:(void(^)(NSInteger))rx forget:(void(^)(NSInteger))fx;
-@property (copy, nonatomic) void (^loginCB)(NSInteger i);
-@property (copy, nonatomic) void (^registerCB)(NSInteger i);
-@property (copy, nonatomic) void (^forgetCB)(NSInteger i);
+- (void)correctPassCode:(NSString*)n;
+
+//- (void)watchAction:(NSInteger)n code:(void(^)(NSString *s))lx resend:(void(^)(NSString *s))rx;
+- (void)watchAction:(NSInteger)n code:(void(^)(NSString *s))lx resend:(void(^)(NSString *s))rx incorrect:(void(^)(NSString *s))ic;
+
+@property (copy, nonatomic) void (^loginCB)(NSString *s);
+@property (copy, nonatomic) void (^resendCB)(NSString *s);
+@property (copy, nonatomic) void (^incorrectCB)(NSString *s);
 
 @end
 

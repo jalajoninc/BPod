@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (id)initWithFrame:(CGRect)frame name:(NSString*)n image:(NSString*)p;
 
+- (void) addError:(NSString*)e  bg:(UIColor*)c;
 
 - (void)watchAction:(NSInteger)n text:(NSObject*(^)(NSString *nm, NSString *s))tx;
 @property (copy, nonatomic) NSObject* (^textCB)(NSString *nm, NSString *s);

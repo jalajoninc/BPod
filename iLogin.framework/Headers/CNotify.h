@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) UIButton *msg;
 @property (nonatomic, retain) UIButton *cart;
 
-//- (void) showIt;
-- (void) showIt:(NSString*)s;
+//- (void) showIt:(NSString*)s;
+- (void)showNow:(NSString*)s done:(NSString*(^)(NSString *usr, NSString *pwd))doneIt;
 
 @end
 

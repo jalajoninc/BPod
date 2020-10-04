@@ -26,16 +26,17 @@ FOUNDATION_EXPORT const unsigned char iLoginVersionString[];
 @property (nonatomic, strong) iCreatePwd *createPwd;
 @property (nonatomic, strong) iVerify *verify;
 @property (nonatomic, retain) CNotify *msg;
+@property (nonatomic, retain) NSMutableDictionary *info;
 
 @property (nonatomic, retain) UIActivityIndicatorView *indicator;
 
-- (void)watchAction:(NSInteger)n login:(NSString*(^)(NSString *usr, NSString *pwd))lx reg:(NSString*(^)(NSString *name, NSString *phone))rx forget:(NSString*(^)(NSString *phone))fx createPwd:(NSString*(^)(NSString *pwd))cx verify:(NSString*(^)(NSString *code))vx;
 
-@property (copy, nonatomic) NSString* (^loginCB)(NSString *usr, NSString *pwd );
-@property (copy, nonatomic) NSString* (^registerCB)(NSString *name, NSString *phone);
-@property (copy, nonatomic) NSString* (^forgetCB)(NSString *phone);
-@property (copy, nonatomic) NSString* (^createPwdCB)(NSString *pwd);
-@property (copy, nonatomic) NSString* (^verifyCB)(NSString *code);
+- (void)watchAction:(NSInteger)n login:(void(^)(NSString *usr, NSString *pwd, void(^toast)(NSString *s)  ))lx createAccount:(void(^)(NSString *name, NSString *email, NSString *pwd, void(^toast)(NSString *s) ))rx changePwd:(void(^)(NSString *email, NSString *pwd, void(^toast)(NSString *s) ))fx;
+
+@property (copy, nonatomic) void (^loginCB)(NSString *usr, NSString *pwd, void(^toast)(NSString *s)  );
+@property (copy, nonatomic) void (^registerCB)(NSString *name, NSString *email, NSString *pwd, void(^toast)(NSString *s) );
+@property (copy, nonatomic) void (^changePwdCB)(NSString *email, NSString *pwd, void(^toast)(NSString *s) );
+
 
 - (void)showStatus:(Boolean)b;
 - (void)loginError:(NSString*)b;

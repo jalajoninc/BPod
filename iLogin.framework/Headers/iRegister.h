@@ -7,21 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CText.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface iRegister : UIView
 @property (nonatomic, retain) UIButton *title;
 @property (nonatomic, retain) UIButton *login;
-@property (nonatomic, retain) UITextField *usr;
-@property (nonatomic, retain) UITextField *pwd;
-//@property (nonatomic, retain) UIButton *reg;
-//@property (nonatomic, retain) UIButton *fgt;
+@property (nonatomic, retain) CText *name;
+@property (nonatomic, retain) CText *email;
 
-- (void)watchAction:(NSInteger)n login:(void(^)(NSInteger))lx reg:(void(^)(NSInteger))rx forget:(void(^)(NSInteger))fx;
-@property (copy, nonatomic) void (^loginCB)(NSInteger i);
-@property (copy, nonatomic) void (^registerCB)(NSInteger i);
-@property (copy, nonatomic) void (^forgetCB)(NSInteger i);
+- (void)watchAction:(NSInteger)n  reg:(NSString*(^)(NSString *name, NSString *email))rx;
+@property (copy, nonatomic) NSString* (^registerCB)(NSString *name, NSString *email);
+
 
 @end
 

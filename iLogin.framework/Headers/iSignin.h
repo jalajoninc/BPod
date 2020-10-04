@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, retain) UIButton *title;
 @property (nonatomic, retain) UIButton *login;
-//@property (nonatomic, retain) UITextField *usr;
-//@property (nonatomic, retain) UITextField *pwd;
 
 @property (nonatomic, retain) CText *usr;
 @property (nonatomic, retain) CText *pwd;
