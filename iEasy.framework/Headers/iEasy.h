@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "CNotify.h"
 #import "TextPanel.h"
+#import "CTextView.h"
 
 //! Project version number for iEasy.
 FOUNDATION_EXPORT double iEasyVersionNumber;
@@ -23,6 +24,7 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 @property (nonatomic, retain) NSMutableArray *photo;
 @property (nonatomic, retain) NSMutableArray *button;
 @property (nonatomic, retain) NSMutableArray *text;
+@property (nonatomic, retain) NSMutableArray *textView;
 @property (nonatomic, retain) CNotify *msg;
 
 - (id)initWithFrame:(UIColor*)bx bgText:(UIColor*)a fgText:(UIColor*)b bgButton:(UIColor*)c fgButton:(UIColor*)d;
@@ -38,6 +40,9 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 - (void) refresh;
 
 - (NSString*) getText:(NSString*)n;
+
+- (void) addTextView:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
+
 
 - (void) addText:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp  photo:(UIImage*)p;
 

@@ -12,13 +12,17 @@
 		<data>
 		/3t2+gYwCZiCsrU9P/1hsBTq3tU=
 		</data>
+		<key>Headers/CTextView.h</key>
+		<data>
+		gm44gr6fVGvRxmrhP0V7nOnyFiI=
+		</data>
 		<key>Headers/TextPanel.h</key>
 		<data>
 		1uYb/DU8Wwgn00Pzq9NIACivzAg=
 		</data>
 		<key>Headers/iEasy.h</key>
 		<data>
-		i7ZYSOfTcIIxEQzoNihweENHJwQ=
+		Qo7rlaY204ZpKOz6S7airmOSuf4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -45,6 +49,13 @@
 			yQgjUdorGZmb6AXE94TVWekFsuz0D/utwfKfeuXx3zA=
 			</data>
 		</dict>
+		<key>Headers/CTextView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PXTHh3lQs6hwcfwbbbkXf40SnB/NJ4xFOGfWVebtkZg=
+			</data>
+		</dict>
 		<key>Headers/TextPanel.h</key>
 		<dict>
 			<key>hash2</key>
@@ -56,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tb9WoTGQ65jR1Pk2HqjGHnBFmGCjwKOqU8W4roDvyvk=
+			VM1tUwGx45BhcrBa88rr5ZKXTJz5Fpc3QP++fCmHcxM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
