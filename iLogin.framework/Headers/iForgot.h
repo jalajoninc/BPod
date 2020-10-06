@@ -16,15 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) CText *usr;
 @property (nonatomic, retain) UIButton *reg;
 
-//- (void)watchAction:(NSInteger)n login:(void(^)(NSInteger))lx reg:(void(^)(NSString *phone))rx forget:(void(^)(NSInteger))fx;
-//@property (copy, nonatomic) void (^loginCB)(NSInteger i);
-//@property (copy, nonatomic) void (^registerCB)(NSString *phone);
-//@property (copy, nonatomic) void (^forgetCB)(NSInteger i);
-//@property (copy, nonatomic) void (^registerCB)(NSString *phone);
-//@property (copy, nonatomic) void (^forgetCB)(NSInteger i);
 
-- (void)watchAction:(NSInteger)n data:(void(^)(NSString *phone))lx;
+- (void)watchAction:(NSInteger)n data:(void(^)(NSString *phone))lx back:(void(^)(NSString *phone))bx;
 @property (copy, nonatomic) void (^dataCB)(NSString *phone);
+@property (copy, nonatomic) void (^backCB)(NSString *phone);
 
 @end
 

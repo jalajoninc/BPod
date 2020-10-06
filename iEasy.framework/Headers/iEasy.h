@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "CNotify.h"
-#import "TextPanel.h"
+//#import "TextPanel.h"
 #import "CTextView.h"
+#import "CText.h"
 
 //! Project version number for iEasy.
 FOUNDATION_EXPORT double iEasyVersionNumber;

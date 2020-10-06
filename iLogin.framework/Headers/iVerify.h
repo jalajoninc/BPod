@@ -20,12 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)correctPassCode:(NSString*)n;
 
-//- (void)watchAction:(NSInteger)n code:(void(^)(NSString *s))lx resend:(void(^)(NSString *s))rx;
-- (void)watchAction:(NSInteger)n code:(void(^)(NSString *s))lx resend:(void(^)(NSString *s))rx incorrect:(void(^)(NSString *s))ic;
+- (void)watchAction:(NSInteger)n code:(void(^)(NSString *s))lx resend:(void(^)(NSString *s))rx incorrect:(void(^)(NSString *s))ic back:(void(^)(NSString *phone))bx;
 
 @property (copy, nonatomic) void (^loginCB)(NSString *s);
 @property (copy, nonatomic) void (^resendCB)(NSString *s);
 @property (copy, nonatomic) void (^incorrectCB)(NSString *s);
+@property (copy, nonatomic) void (^backCB)(NSString *phone);
 
 @end
 

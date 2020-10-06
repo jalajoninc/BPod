@@ -17,13 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) CText *usr;
 @property (nonatomic, retain) CText *pwd;
 
-//- (void)watchAction:(NSInteger)n login:(void(^)(NSInteger))lx reg:(void(^)(NSInteger))rx forget:(void(^)(NSInteger))fx;
-//@property (copy, nonatomic) void (^loginCB)(NSInteger i);
-//@property (copy, nonatomic) void (^registerCB)(NSInteger i);
-//@property (copy, nonatomic) void (^forgetCB)(NSInteger i);
 
-- (void)watchAction:(NSInteger)n pwd:(void(^)(NSString *i))lx;
+- (void)watchAction:(NSInteger)n pwd:(void(^)(NSString *i))lx back:(void(^)(NSString *phone))bx;
 @property (copy, nonatomic) void (^pwdCB)(NSString *i);
+@property (copy, nonatomic) void (^backCB)(NSString *phone);
 
 @end
 

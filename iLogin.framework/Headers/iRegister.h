@@ -17,8 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) CText *name;
 @property (nonatomic, retain) CText *email;
 
-- (void)watchAction:(NSInteger)n  reg:(NSString*(^)(NSString *name, NSString *email))rx;
+- (void)watchAction:(NSInteger)n  reg:(NSString*(^)(NSString *name, NSString *email))rx back:(void(^)(NSString *phone))bx;
 @property (copy, nonatomic) NSString* (^registerCB)(NSString *name, NSString *email);
+@property (copy, nonatomic) void (^backCB)(NSString *phone);
 
 
 @end

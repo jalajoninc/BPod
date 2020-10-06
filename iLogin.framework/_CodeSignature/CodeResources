@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/iCreatePwd.h</key>
 		<data>
-		dS0PoCt1rq5VULYsx5dyBk4i0eA=
+		87BjNn6le7MeXCoN4RI8H6L1k/8=
 		</data>
 		<key>Headers/iForgot.h</key>
 		<data>
-		AaCaJbMHJOkRl5H1rqBdCQpQfxM=
+		VQkM+xJ6aDf+LDHhjgXKCOM5EgY=
 		</data>
 		<key>Headers/iLogin.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/iRegister.h</key>
 		<data>
-		2C8BLuo7LuWdFP2h44fjZGd/OvI=
+		2wB/bHOOfTKbHImuYWC6J/GXSUs=
 		</data>
 		<key>Headers/iSignin.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/iVerify.h</key>
 		<data>
-		xX0BVtGk3sa073VMbaAlUbDDmCE=
+		dpNvTNVafAukpL1LtHFLzMfSjQA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajGcOhOXDIp5dbylu1hrOCJA9/aV4ZHO3HkF9vC7f1Q=
+			EOQIKUSttG4zKq6BcWxEw/1swFk29OfV6enPDDIiDQY=
 			</data>
 		</dict>
 		<key>Headers/iForgot.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ly/MVIA66dfeSRTUDVqjm7tEb2Xuad70g6RjWupQUfI=
+			b2xaMZ4t1jXtCXp7aQSdi1dLz2r651o68PdDfWdtk9Y=
 			</data>
 		</dict>
 		<key>Headers/iLogin.h</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zqRFvzEBiQ20VSLCt4COw44cMOvrMET2NvUAHHKR59o=
+			b5wBZpucYaAStGfzXYmO+mSaxyczDI1zOmMS26vXfM0=
 			</data>
 		</dict>
 		<key>Headers/iSignin.h</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8W4dcqqunDNFRx4ox5lp2sEhhs0hY4YP8RE7r3RIFVo=
+			wK4EvAQsvpL7z6xL1EvQHPOOkdZkp0510oMFcAEe4cA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

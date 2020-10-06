@@ -16,13 +16,9 @@
 		<data>
 		gm44gr6fVGvRxmrhP0V7nOnyFiI=
 		</data>
-		<key>Headers/TextPanel.h</key>
-		<data>
-		1uYb/DU8Wwgn00Pzq9NIACivzAg=
-		</data>
 		<key>Headers/iEasy.h</key>
 		<data>
-		Qo7rlaY204ZpKOz6S7airmOSuf4=
+		wvYE7nqx7HlMXCg/TKPAdgSkARY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -56,18 +52,11 @@
 			PXTHh3lQs6hwcfwbbbkXf40SnB/NJ4xFOGfWVebtkZg=
 			</data>
 		</dict>
-		<key>Headers/TextPanel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IEMUZv+57mF/cuBRhwiFzMj6FNUd/eKU/OMr9i5SLsA=
-			</data>
-		</dict>
 		<key>Headers/iEasy.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VM1tUwGx45BhcrBa88rr5ZKXTJz5Fpc3QP++fCmHcxM=
+			vB9YapSZev694Ke05Q7m5CBnBB3ArYGZy9YrLf6Erng=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
