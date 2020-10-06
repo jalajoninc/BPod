@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) UITextField *txt;
 @property (nonatomic, retain) UITextField *error;
 @property (nonatomic, retain) UIImageView *photo;
+@property (nonatomic, retain) UITextField *toaster;
 
 
 - (id)initWithFrame:(CGRect)frame name:(NSString*)n image:(NSString*)p;
@@ -23,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)watchAction:(NSInteger)n text:(NSObject*(^)(NSString *nm, NSString *s))tx;
 @property (copy, nonatomic) NSObject* (^textCB)(NSString *nm, NSString *s);
+- (void) toast:(NSString*)s;
 
 @end
 
