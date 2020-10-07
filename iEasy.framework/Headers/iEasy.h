@@ -51,12 +51,12 @@ FOUNDATION_EXPORT const unsigned char iEasyVersionString[];
 
 - (void) addButton:(NSString*)n x:(CGFloat)xp y:(CGFloat)yp w:(CGFloat)wp h:(CGFloat)hp;
 
-- (void)watchAction:(NSInteger)n action:(void(^)(NSString *nm))lx text:(NSObject*(^)(NSString *nm, NSString *s))tx;
-
+- (void)watchAction:(void(^)(NSString *nm))lx
+error:(void(^)(NSString *nm, NSString *s, void(^setError)(NSString *s, UIColor *c, BOOL *t) ))ex;
 
 
 @property (copy, nonatomic) void (^actionCB)(NSString *nm);
-@property (copy, nonatomic) NSObject* (^textCB)(NSString *nm, NSString *s);
+@property (copy, nonatomic) void (^errorCB)(NSString *nm, NSString *s, void(^setError)(NSString *msg, UIColor *c, BOOL *t) );
 
 - (void) addBGColor:(NSString*)n color:(UIColor*)c;
 - (void) addFGColor:(NSString*)n color:(UIColor*)c;
